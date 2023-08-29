@@ -1,0 +1,20 @@
+<html>
+    <script>
+        function verificarmultiples(valor1, valor2){
+            return(valor1 % valor2)
+        }
+        var valor1 = parseInt(prompt("Digite o primeiro numero:"))
+        var valor2 = parseInt(prompt("Digite o segundo numero:"))
+
+        console.log(verificarmultiples(valor1, valor2))
+
+        if (verificarmultiples(valor1, valor2) == 0){
+            alert("o numero "+ valor1 + " e multiplo do numero " + valor2)
+
+        } else {
+            alert("o numero " + valor1 + " nao e multiplo do numero " + valor2)
+        }
+        
+        
+    </script>
+</html>

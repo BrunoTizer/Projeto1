@@ -1,0 +1,18 @@
+<html>
+    <script>
+        function calcularICMS(valor1){
+            return (valor1 * 0.21)
+
+        }
+
+        function soma(a,b){
+            return (a + b)
+        }
+        var valordig = parseInt(prompt("coloque aqui o valor de custo"))
+        var valoricms = calcularICMS(valordig, porcentagemICMS)
+
+        alert("O valor de ICMS é: " + valoricms + "\nO valor de custo + o ICMS: " + soma(valoricms,valordig))
+
+        
+    </script>
+</html>
